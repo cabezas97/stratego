@@ -1,3 +1,22 @@
+
+## Enunciado
+
+A continuación se adjunta el ``README.md`` original de este repositorio, tal como se incluye en el [repositorio original](https://github.com/nuttywhal/stratego).
+
+Para clonar esta versión directamente en su repositorio privado, existen varias alternativas, pero la más sencilla es hacer simplemente lo siguiente (asumiendo que el repositorio destino se llama [https://github.com/Sw-Evolution/19EXX](https://github.com/Sw-Evolution/)):
+
+    $ git clone git://github.com/Sw-Evolution/Stratego.git
+    $ cd Stratego
+    $ git remote remove origin
+    $ git remote add origin https://github.com/Sw-Evolution/19EXX.git
+    $ git push -u origin master
+
+De modo que se inicia el repositorio privado (no se puede hacer directamente un *fork* del repositorio público) con la versión completa del repositorio original, y poniendo esta misma versión como *commit* inicial, sin "arrastrar" la historia antigua del repositorio original (que sigue estando disponible en éste, por si alguien quisiera consultarla).
+
+Por supuesto, en la versión final **no** es obligatorio que exista un directorio ``bin`` con la versión compilada del código; más bien, por el contrario, sería preferible que quedase claro cómo se compila el código. (En la versión original se explica aquí mismo, pero es un método que sólo funciona en una shell bash).
+
+---
+
 # <img width="400" alt="stratego" src="https://user-images.githubusercontent.com/26120940/32502146-37fad856-c397-11e7-80e1-a2edf3336774.png" />
 
 > **Stratego** [/strəˈtiːɡoʊ/](https://en.wikipedia.org/wiki/Help:IPA/English) is a strategy board game for two players on a board of 10×10 squares. Each player controls 40 pieces representing individual officer ranks in an army. The objective of the game is to find and capture the opponent's *Flag*, or to capture so many enemy pieces that the opponent cannot make any further moves. *Stratego* has simple enough rules for young children to play, but a depth of strategy that is also appealing to adults.
